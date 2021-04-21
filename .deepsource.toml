@@ -7,6 +7,9 @@ enabled = true
   [analyzers.meta]
   plugins = [
     "react",
+    "vue",
+    "ember",
+    "angular",
     "angularjs",
-    "angular"
+    "meteor"
   ]
