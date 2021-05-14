@@ -1,5 +1,6 @@
 
 
+
 /*----------------- navigation menu --------------------*/
 
 (() =>{
@@ -182,6 +183,7 @@
      	}
      	popup.querySelector(".pp-counter").innerHTML = (slideIndex+1) + " of " + screenshots.length;
      }
+	 
 
      // next slide
      nextBtn.addEventListener("click", () =>{
@@ -299,7 +301,14 @@
 })();
 
 /*----------- hide all sections except active --------------*/ 
+(()=>{
+	let gg=document.querySelector(".button");
+	gg.addEventListener('click',myfunc);
 
+	function myfunc(){
+		alert("gotYOu");
+	}
+})
 (() =>{
   
    const sections = document.querySelectorAll(".section");
